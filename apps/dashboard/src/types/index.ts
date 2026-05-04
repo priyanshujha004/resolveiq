@@ -14,6 +14,9 @@ export interface JwtPayload {
   role: Role;
   tenantId: string;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0
   name: string | null;
 }
 
@@ -39,13 +42,17 @@ export interface ReturnPolicyConfig {
   allowedReasons: string[];
   autoApproveBelow: number;
   nonReturnableCategories: string[];
+<<<<<<< HEAD
 =======
 >>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
+=======
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0
 }
 
 export interface TenantConfig {
   id: string;
   name: string;
+<<<<<<< HEAD
 <<<<<<< HEAD
   slug: string;
   departments: { id: string; name: string; description: string | null }[];
@@ -58,6 +65,14 @@ export interface TenantConfig {
   aiPersona: string;
   primaryColor: string;
 >>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
+=======
+  slug: string;
+  departments: { id: string; name: string; description: string | null }[];
+  aiPersona: string;
+  primaryColor: string;
+  plan: string;
+  returnPolicy: ReturnPolicyConfig | null;
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0
 }
 
 export interface ChatMessage {

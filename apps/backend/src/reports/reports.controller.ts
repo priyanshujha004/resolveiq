@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0
 import {
     Controller,
     Post,
@@ -61,6 +64,7 @@ import {
     findOne(@Param('id') id: string, @Request() req: AuthRequest) {
       return this.reportsService.findOne(id, req.user);
     }
+<<<<<<< HEAD
   }
 =======
 // TODO P3: POST /reports, GET /reports, GET /reports/:id
@@ -68,3 +72,6 @@ import { Controller } from '@nestjs/common';
 @Controller('reports')
 export class ReportsController {}
 >>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
+=======
+  }
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0

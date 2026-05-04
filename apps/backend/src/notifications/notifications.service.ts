@@ -371,7 +371,11 @@ export class NotificationsService {
     return { count: result.count };
   }
  
+<<<<<<< HEAD
   // ─── Email template wrapper ─────────────────────────────────────────────────
+=======
+  // ─── Email template wrapper ───────────────────────────────────────────────
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0
  
   private _wrapEmailTemplate(title: string, body: string): string {
     return `
@@ -402,4 +406,8 @@ export class NotificationsService {
 </body>
 </html>`;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0

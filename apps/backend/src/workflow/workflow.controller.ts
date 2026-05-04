@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0
 import {
     Controller,
     Post,
@@ -97,6 +100,7 @@ import {
     ) {
       return this.workflowService.customerRespond(reportId, req.user, note);
     }
+<<<<<<< HEAD
   }
 =======
 // TODO P3: /workflow/approve/:id, /reject/:id, /action/:id, /escalate/:id, /resolve/:id
@@ -104,3 +108,6 @@ import { Controller } from '@nestjs/common';
 @Controller('workflow')
 export class WorkflowController {}
 >>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
+=======
+  }
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0

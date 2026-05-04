@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0
 'use client';
 
 import { ReportRow } from './ReportItem';
@@ -55,8 +58,12 @@ export function ReportQueue({ headers, reports, renderRow, loading, emptyMsg }: 
       </div>
     </div>
   );
+<<<<<<< HEAD
 }
 =======
 // TODO P3: ReportQueue
 export default function ReportQueue() { return null; }
 >>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
+=======
+}
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0

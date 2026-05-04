@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
@@ -251,8 +254,12 @@ export default function CdaDashboard() {
       <Toast toasts={toasts} onDismiss={dismiss} />
     </div>
   );
+<<<<<<< HEAD
 }
 =======
 // TODO P3 — CDA role only
 export default function CdaPage() { return <div>CDA Dashboard — TODO P3</div>; }
 >>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
+=======
+}
+>>>>>>> 5c84a16f7138b750bcae536206fe50d6b0e034f0

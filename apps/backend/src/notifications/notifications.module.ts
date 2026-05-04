@@ -1,4 +1,3 @@
-
 // TODO P4: implement
 // apps/backend/src/notifications/notifications.module.ts
  
@@ -17,3 +16,4 @@ import {AuthModule} from '../auth/auth.module';
   exports: [NotificationsService],
 })
 export class NotificationsModule {}
+>>>>>>> notify-report
