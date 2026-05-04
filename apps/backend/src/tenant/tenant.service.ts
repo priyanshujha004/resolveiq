@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 
@@ -78,5 +79,13 @@ export class TenantService {
       createdAt: tenant.createdAt,
       updatedAt: tenant.updatedAt,
     };
+=======
+// TODO P1: getConfig(tenantId) → { id, name, departments, aiPersona, primaryColor }
+import { Injectable } from '@nestjs/common';
+@Injectable()
+export class TenantService {
+  async getConfig(tenantId: string) {
+    throw new Error('Not implemented — TODO P1');
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
   }
 }

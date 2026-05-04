@@ -1,4 +1,5 @@
 // TODO P4: Timeline
+<<<<<<< HEAD
 // apps/dashboard/src/components/report/Timeline.tsx
  
 export interface TimelineEntry {
@@ -131,3 +132,6 @@ function TimelineItem({
     </li>
   );
 }
+=======
+export default function Timeline() { return null; }
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 import { useState } from 'react';
@@ -149,3 +150,7 @@ export default function LoginPage() {
     </div>
   );
 }
+=======
+// TODO P1
+export default function LoginPage() { return <div>Login — TODO P1</div>; }
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

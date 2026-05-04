@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
@@ -251,3 +252,7 @@ export default function CdaDashboard() {
     </div>
   );
 }
+=======
+// TODO P3 — CDA role only
+export default function CdaPage() { return <div>CDA Dashboard — TODO P3</div>; }
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

@@ -1,4 +1,5 @@
 // TODO P4: ReportDetail
+<<<<<<< HEAD
 // apps/dashboard/src/components/report/ReportDetail.tsx
  
 'use client';
@@ -208,3 +209,6 @@ function OrderField({ label, value }: { label: string; value: string }) {
     </div>
   );
 }
+=======
+export default function ReportDetail() { return null; }
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

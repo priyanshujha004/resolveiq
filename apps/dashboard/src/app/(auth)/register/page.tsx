@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // 'use client';
 
 // import { useState } from 'react';
@@ -177,3 +178,7 @@
 //     </div>
 //   );
 // }
+=======
+// TODO P1
+export default function RegisterPage() { return <div>Register — TODO P1</div>; }
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

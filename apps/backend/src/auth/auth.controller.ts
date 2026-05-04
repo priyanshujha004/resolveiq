@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
   Controller,
   Post,
@@ -65,3 +66,9 @@ export class AuthController {
     return this.authService.getMe(user.sub);
   }
 }
+=======
+// TODO P1: POST /auth/register, /auth/login, /auth/logout, GET /auth/me
+import { Controller } from '@nestjs/common';
+@Controller('auth')
+export class AuthController {}
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Module } from '@nestjs/common';
 import { ReportsController } from './reports.controller';
 import { ReportsService } from './reports.service';
@@ -9,3 +10,9 @@ import { PrismaService } from '../prisma/prisma.service';
   exports: [ReportsService],
 })
 export class ReportsModule {}
+=======
+// TODO P3: implement
+import { Module } from '@nestjs/common';
+@Module({})
+export class ReportsModule {}
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

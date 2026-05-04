@@ -371,7 +371,7 @@ export class NotificationsService {
     return { count: result.count };
   }
  
-  // ─── Email template wrapper ───────────────────────────────────────────────
+  // ─── Email template wrapper ─────────────────────────────────────────────────
  
   private _wrapEmailTemplate(title: string, body: string): string {
     return `

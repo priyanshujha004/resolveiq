@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 import { useEffect, useState } from 'react';
@@ -117,3 +118,7 @@ export default function Sidebar({ mobileOpen, onCloseMobile }: SidebarProps) {
     </>
   );
 }
+=======
+// TODO P1: Sidebar
+export default function Sidebar() { return null; }
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

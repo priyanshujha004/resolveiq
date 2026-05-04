@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 import { useState } from 'react';
@@ -95,3 +96,7 @@ export function ActionPanel({ reportId, token, onSuccess, onClose }: Props) {
     </div>
   );
 }
+=======
+// TODO P3: ActionPanel
+export default function ActionPanel() { return null; }
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

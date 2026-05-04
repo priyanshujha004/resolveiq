@@ -13,6 +13,7 @@ export interface JwtPayload {
   email: string;
   role: Role;
   tenantId: string;
+<<<<<<< HEAD
   name: string | null;
 }
 
@@ -38,17 +39,25 @@ export interface ReturnPolicyConfig {
   allowedReasons: string[];
   autoApproveBelow: number;
   nonReturnableCategories: string[];
+=======
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
 }
 
 export interface TenantConfig {
   id: string;
   name: string;
+<<<<<<< HEAD
   slug: string;
   departments: { id: string; name: string; description: string | null }[];
   aiPersona: string;
   primaryColor: string;
   plan: string;
   returnPolicy: ReturnPolicyConfig | null;
+=======
+  departments: string[];
+  aiPersona: string;
+  primaryColor: string;
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
 }
 
 export interface ChatMessage {

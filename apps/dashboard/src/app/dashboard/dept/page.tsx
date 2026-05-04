@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
@@ -151,3 +152,7 @@ export default function DeptDashboard() {
     </div>
   );
 }
+=======
+// TODO P3 — DEPT_ADMIN role only
+export default function DeptPage() { return <div>Dept Dashboard — TODO P3</div>; }
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

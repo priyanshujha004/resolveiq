@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { apiGet, apiPost } from './api';
 import type { UserDto } from '../types';
 
@@ -16,4 +17,12 @@ export async function logout(): Promise<void> {
     // Even if the API call fails, redirect to login
   }
   window.location.href = '/login';
+=======
+// TODO P1: getUser(), logout()
+export async function getUser() {
+  // TODO P1
+}
+export async function logout() {
+  // TODO P1
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
 }

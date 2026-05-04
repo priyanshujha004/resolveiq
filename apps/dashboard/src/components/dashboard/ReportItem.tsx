@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 import { useRouter } from 'next/navigation';
@@ -130,3 +131,7 @@ export function ReportItem({ report, columns, actions, onClick }: Props) {
     </tr>
   );
 }
+=======
+// TODO P3: ReportItem
+export default function ReportItem() { return null; }
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

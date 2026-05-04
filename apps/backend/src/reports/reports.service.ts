@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
     Injectable,
     BadRequestException,
@@ -160,3 +161,9 @@ import {
       return report;
     }
   }
+=======
+// TODO P3: create, list, getById
+import { Injectable } from '@nestjs/common';
+@Injectable()
+export class ReportsService {}
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

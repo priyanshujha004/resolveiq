@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
     Injectable,
     BadRequestException,
@@ -452,3 +453,10 @@ import {
       return { id: updated.id, status: updated.status };
     }
   }
+=======
+// TODO P3: state machine + emit 'report.statusChanged' event
+// this.eventEmitter.emit('report.statusChanged', { reportId, newStatus, customerId, note })
+import { Injectable } from '@nestjs/common';
+@Injectable()
+export class WorkflowService {}
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

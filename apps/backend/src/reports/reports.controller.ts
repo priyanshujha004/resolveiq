@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
     Controller,
     Post,
@@ -61,3 +62,9 @@ import {
       return this.reportsService.findOne(id, req.user);
     }
   }
+=======
+// TODO P3: POST /reports, GET /reports, GET /reports/:id
+import { Controller } from '@nestjs/common';
+@Controller('reports')
+export class ReportsController {}
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

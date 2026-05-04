@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { Strategy } from 'passport-jwt';
@@ -38,3 +39,9 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
     };
   }
 }
+=======
+// TODO P1: JWT strategy — read from cookie named 'access_token'
+import { Injectable } from '@nestjs/common';
+@Injectable()
+export class JwtStrategy {}
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

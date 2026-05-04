@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 import { useEffect, useState } from 'react';
@@ -79,3 +80,7 @@ export default function Navbar({ onToggleSidebar }: NavbarProps) {
     </header>
   );
 }
+=======
+// TODO P1: Navbar
+export default function Navbar() { return null; }
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb

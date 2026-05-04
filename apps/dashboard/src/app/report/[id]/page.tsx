@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
@@ -610,3 +611,9 @@ export default function ReportDetailPage() {
     </div>
   );
 }
+=======
+// TODO P4 — all roles
+export default function ReportPage({ params }: { params: { id: string } }) {
+  return <div>Report {params.id} — TODO P4</div>;
+}
+>>>>>>> 8fcd563a8d8dba5a8f175ac1f49f740c081411eb
